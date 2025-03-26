@@ -1,0 +1,69 @@
+#topnav
+{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+
+
+
+#home
+{
+    color: green;
+    padding: 200px;
+    background-image:url("com.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#font
+{
+    font-size: 18px;
+}
+
+#edu
+{
+    background-color: lightgreen;
+    padding: 20px;
+    box-shadow: 4px 5px 7px 5px black;
+}
+
+footer{
+    background-color:#000;
+    color:#fff;
+    padding: 10px;
+}
+
+#ficon
+{
+    float:right;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#icon
+{
+    font-size: 20px !important;
+}
+
+.fixed
+{
+    top:0;
+    position:fixed;
+    width: 100px;
+    z-index:1;
+}
+
+.zoom {
+    padding: 0px;
+    transition: transform .2s;
+    margin: 0 auto;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+
+  
